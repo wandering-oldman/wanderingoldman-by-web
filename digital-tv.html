@@ -1,0 +1,710 @@
+
+<!DOCTYPE html>
+<html dir='ltr' lang='en'>
+<head>
+<title>ทีวีดิจิตอล</title>
+<meta charset='UTF-8' />
+
+
+
+<link href="https://realmetx.serv00.net/page/css/bootstrap.css" rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link href="https://realmetx.serv00.net/page/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="https://realmetx.serv00.net/page/css/normalize.css">
+<link rel="stylesheet" href="https://realmetx.serv00.net/page/css/custom.css">
+
+	
+<!-- Styles of Puerto Responsive Flat Buttons -->
+<link rel="stylesheet" href="https://realmetx.serv00.net/page/css/main.css">
+	
+<!-- Font awesome -->
+<link rel="stylesheet" href="http://hdtvdd.com/work/assets_remark/fonts/font-awesome/font-awesome.min.css">
+
+<!-- start plugins -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://realmetx.serv00.net/page/js/jquery-1.11.1.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700,800,900" rel='stylesheet' type='text/css'>
+
+<script src="https://realmetx.serv00.net/page/js/jquery.backstretch.js"></script>
+<script src="http://hdtvdd.com/work/bootstrap-login-forms/form-2/assets/js/scripts.js"></script>
+<style type="text/css">
+
+.overlay {
+    z-index: 5;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    position:absolute;
+    text-align:left;
+	background-color:rgba(255,255,255,0);
+}
+
+.overlay-flag {
+    position:absolute;
+    z-index: 6;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-align:right;
+	background-color:rgba(255,255,255,0);
+
+}
+
+
+.overlay2 {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    position:absolute;
+    text-align:left;
+	background-color:rgba(0,0,0,0.5);
+	height:60px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:5px;
+	width:100%;
+	margin-left:0px;
+	margin-top:35px;
+}
+.login_botton {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2px;
+    cursor: pointer;
+	border-radius: 4px;
+}
+
+.live_botton {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2px;
+    cursor: pointer;
+	border-radius: 4px;
+}
+
+.login_txt {
+	border: #0A0A0A;
+	color: black;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 4px;
+	width:150px;
+    margin-top: -6px;
+
+}
+
+input:focus {
+	outline: none !important;
+	border-color: #F7AA06;
+	box-shadow: 0 0 0 5px #F7AA06;
+	border-radius: 2px
+}
+
+button:focus {
+	outline: none !important;
+	border-color: #F7AA06;
+	box-shadow: 0 0 0 5px #F7AA06;
+	border-radius: 2px;
+}
+
+a:focus img{
+	outline: none !important;
+	box-shadow: 0 0 0 5px #F7AA06;
+	border-radius: 2px;
+
+}
+
+.box-flag {
+	border: 0px;
+	background-color: rgba(255,255,255,0.0);
+	display: inline-block;
+}
+
+
+
+</style>
+<link rel="stylesheet" href="http://hdtvdd.com/work/font/stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="http://hdtvdd.com/work/css/8k.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="http://hdtvdd.com/work/css/overlay.css" type="text/css" charset="utf-8">
+<link href="http://hdtvdd.com/work/css/theme.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+  <style>
+  .modal-header {
+    background-color: #111;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+  }
+  .modal-footer {
+    background-color: #f9f9f9;
+  }
+  
+.group {
+  margin-bottom: 30px;
+}
+.group label {
+  font-size: 24px;
+}
+.group2 label {
+  font-size: 20px;
+}
+  
+  input[type='text'] { font-size: 24px; }
+  
+  </style>
+
+
+
+
+</div>
+ 
+<script>
+$(document).ready(function(){
+  $("#myBtn").click(function(){
+    $("#myModal").modal();
+  });
+});
+
+$(document).ready(function(){
+  $("#myBtn2").click(function(){
+    $("#myModal2").modal();
+  });
+});
+
+$(document).ready(function(){
+  $("#myBtn_vip").click(function(){
+    $("#myModal_vip").modal();
+  });
+});
+
+$(document).ready(function(){
+  $("#myBtn_cpass").click(function(){
+    $("#myModal_changepass").modal();
+  });
+});
+</script>
+
+<!--background-image:url(images/chinese-new-year-2017.jpg);background-attachment:fixed;background-position:center;-->
+
+    <div class="container" style="background-color:rgba(0,0,0,0.0); height:100%;">
+     <div class="container_wrap">
+     	<div class="row" style="background-color:#000;border-radius:5px">
+        	<div class="col-lg-12 col-md-12 col-xs-12" style="margin-top:10px;margin-bottom:10px;">
+            	<div class="row" >
+			<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+				<div class="logo">
+									</div>
+			</div>
+
+		<div class="col-lg-12 col-md-12 col-xs-12" align="right" style="padding-top:0px;padding-bottom:5px;padding-left:5px;padding-right:5px">
+            <form class="form-inline">
+                <div class="form-group" style="margin:5px;">
+
+                
+					
+        <div class="col-lg-12 col-md-12 col-xs-12" align="center" style="padding-top:0px;padding-bottom:0px;padding-left:6px;padding-right:5px">
+            				<p style="font-family: 'rsuregular';font-size:24px;color:#A5FF01">
+					<marquee width="100%" onmouseover="this.scrollAmount=0" onmouseout="this.scrollAmount=1" scrollamount="5" scrolldelay="0" direction="left">⬅️ ผู้เฒ่าพเนจร  ™ ฟรี !!! อย่านำไปจำหน่าย นะจ๊ะ !!! ⬅️</marquee>
+				</p>
+			   
+        </div>
+    </div>
+                </div>                
+
+<meta name="msapplication-TileColor" content="#009538">
+<meta name="msapplication-TileImage" content="https://fn.dmpcdn.com/TrueIDWeb/Home/badge/tvs_badge.png">
+<meta name="theme-color" content="#000">
+
+
+
+
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="https://realmetx.serv00.net/page/css/menu1.css">
+<link rel="stylesheet" href="https://realmetx.serv00.net/page/css/mainmenu.css">
+   
+   
+
+</div>
+</div>
+<style type="text/css">
+.footer 
+{
+    text-align: center;
+    position : absolute;
+    bottom : -20;
+    width:99%;
+    height : 56px;
+    margin-top : 50px;
+  }
+</style>
+</header>
+	
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>       
+<div id="cssmenu">
+<ul>
+<i class="" aria-hidden="true"></i>
+<li class="active"><a href="go:nung"><i class=""></i>ดูซีรี่ย์ฝรั่ง ™ </a></li>
+<li class="active"><a href="go:livesod"><i class=""></i>ดูซีรี่ย์จีน ™ </a></li>
+     <li class="active"><a href="go:hometv"><i class=" "></i>ดูซีรี่ย์เกาหลี ™ </a></li>
+     <li class="active"><a href="go:set"><i class=""></i>ดูการ์ตูน ™ </a></li>
+<li> <li class="active"><a href="http://action_exit"><i class=""></i> 🖥️ ออก</a>
+        <ul>
+</div>
+	
+
+    <div class="row">
+		<div class="col-lg-2 col-md-2 col-xs-2" style="width:20%;padding-left:6px;padding-right:6px;">  
+			<div class="col-lg-12 col-md-12 col-xs-12" style="padding-top:5px;padding-bottom:0px">
+			
+						
+
+						
+
+<div class="row" style="background-color:#202020;padding:0px;">
+<table class="table" style="margin-bottom: 5px;">
+<tr>
+	<td>
+<a class="table-menu" href="go:digital" style="background-color: red"><i class=""></i> <b>🟢ดิจิตอลทีวี</b></a>
+	</td>
+</tr>
+</table>
+</div>
+<div class="row" style="background-color:#202020;padding:0px;">
+<table class="table" style="margin-bottom: 5px;">
+<tr>
+	<td>
+		<a class="table-menu" href="go:news"><i class=""></i> <b> ข่าว ™ </b></a>
+		
+	</td>
+</tr>
+</table>
+</div>
+ 
+<div class="row" style="background-color:#202020;padding:0px;">
+<table class="table" style="margin-bottom: 5px;">
+<tr>
+	<td>
+		<a class="table-menu" href="go:cartoon1"><i class=""></i> <b> การ์ตูน ™ </b></a>
+		
+	</td>
+</tr>
+
+</table>
+</div>
+                             
+						
+
+<div class="row" style="background-color:#202020;padding:0px;">
+<table class="table" style="margin-bottom: 5px;">
+<tr>
+	<td>
+		<a class="table-menu" href="go:sports"><i class=""></i> <b> กีฬา ™ </b></a>
+		
+	</td>
+</tr>
+
+</table>
+</div>
+                             
+						
+<div class="row" style="background-color:#202020;padding:0px;">
+<table class="table" style="margin-bottom: 5px;">
+<tr>
+	<td>
+		<a class="table-menu" href="go:movies"><i class=""></i> <b> ภาพยนต์ ™ </b></a>
+		
+	</td>
+</tr>
+
+</table>
+</div>
+                             
+						
+
+<div class="row" style="background-color:#202020;padding:0px;">
+<table class="table" style="margin-bottom: 5px;">
+<tr>
+	<td>
+		<a class="table-menu" href="go:document"><i class=""></i> <b> สารคดี ™ </b></a>
+		
+	</td>
+</tr>
+
+</table>
+</div>
+                             
+						
+
+<div class="row" style="background-color:#202020;padding:0px;">
+<table class="table" style="margin-bottom: 5px;">
+<tr>
+	<td>
+		<a class="table-menu" href="https://drzl.short.gy/hdtv7.php"><i class=""></i> <b> 🟢สารคดี</b></a>
+		
+	</td>
+</tr>
+
+</table>
+</div>
+                             
+						
+
+<div class="row" style="background-color:#202020;padding:0px;">
+<table class="table" style="margin-bottom: 5px;">
+<tr>
+	<td>
+		<a class="table-menu" href="https://drzl.short.gy/hdtv8.php"><i class=""></i> <b> 🟢บันเทิง</b></a>
+		
+	</td>
+</tr>
+
+</table>
+</div>
+
+                             
+						
+
+<div class="row" style="background-color:#202020;padding:0px;">
+<table class="table" style="margin-bottom: 5px;">
+<tr>
+	<td>
+		<a class="table-menu" href="https://drzl.short.gy/hdtv9.php"><i class=""></i> <b> 🟢ต่างประเทศ</b></a>
+		
+	</td>
+</tr>
+
+</table>
+</div>
+
+            </div>
+        </div> 
+ 
+
+<div class="col-lg-9 col-md-9 col-xs-9" style="width:80%;padding-left:0px;padding-right:10px;">
+        <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+
+
+	<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191821ch3hd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='go:ch3'" autofocus="">	
+			</div>
+		</div>	
+	<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191821ch3hd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://wandering-oldman.github.io/3bb-ch3/3bb-ch3.html'" autofocus="">	
+			</div>
+		</div>	
+
+
+
+								
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418185850ch5hd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='go:ch5'"  autofocus="">	
+			</div>
+		</div>	
+		
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418185850ch5hd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://wandering-oldman.github.io/3bb-ch5/3bb-ch5.html'"  autofocus="">	
+			</div>
+		</div>	
+
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418185909ch7hd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='go:ch7'" autofocus="">	
+			</div>
+		</div>		
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418185909ch7hd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='hhttps://wandering-oldman.github.io/3bb-ch7/3bb-ch7.html'" autofocus="">	
+			</div>
+		</div>	
+
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191042mcothd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='go:mcot'" autofocus="">	
+			</div>
+		</div>		
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191042mcothd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://wandering-oldman.github.io/3bb-mcot/3bb-mcot.html'" autofocus="">	
+			</div>
+		</div>			
+		
+		<div class="movie col-4 col-md-3 col-xl-2">
+			
+ 			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191323nbthd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='go:nbt'"  autofocus="">	
+			</div>
+		</div>	
+		<div class="movie col-4 col-md-3 col-xl-2">
+			
+
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191323nbthd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='hhttps://wandering-oldman.github.io/3bb-nbt/3bb-nbt.html'"  autofocus="">	
+			</div>
+		</div>			
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191223tpbshd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='go:thaipbs'" autofocus="">	
+
+			</div>
+		</div>				
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191223tpbshd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://wandering-oldman.github.io/3bb-thaipbs/3bb-thaipbs.html'" autofocus="">	
+
+			</div>
+		</div>				
+		
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418190014TNN16.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='go:tnn16'" autofocus="">	
+					
+			</div>
+		</div>	
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418190014TNN16.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://wandering-oldman.github.io/3bb-tnn16/3bb-tnn16.html'" autofocus="">	
+					
+			</div>
+		</div>			
+		
+		<div class="movie col-4 col-md-3 col-xl-2">
+		<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418192308Nation1.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='go:nation'" autofocus="">	
+	
+			</div>
+		</div>		
+		<div class="movie col-4 col-md-3 col-xl-2">
+		<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418192308Nation1.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://wandering-oldman.github.io/3bb-nation/3bb-nation.html'" autofocus="">	
+		</div>
+		</div>
+
+
+		
+		<div class="movie col-4 col-md-3 col-xl-2">
+		<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://www.dropbox.com/scl/fi/54pn5g42m9ppucg2nw3jy/news1.png?rlkey=5j5kgq3a2bd0pwlb4bh540yal&dl=1);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://wandering-oldman.github.io/3bb-news1/3bb-news1.html'" autofocus="">	
+	
+			</div>
+		</div>	
+
+		
+		<div class="movie col-4 col-md-3 col-xl-2">
+		<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://www.dropbox.com/scl/fi/wcr2evwd7hukfqvsljokv/topnews.png?rlkey=zl8uq2ms3oe5plsdbza27zr0s&dl=1);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://live.topnews.co.th/hls/topnews_720.m3u8'" autofocus="">	
+	
+			</div>
+		</div>	
+		
+		<div class="movie col-4 col-md-3 col-xl-2">
+		<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://www.dropbox.com/scl/fi/n839k0a40o6o781gm0ttv/Tsport-7.jpg?rlkey=xv7hvuanyxjeszstnwqxriur7&dl=1);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://wandering-oldman.github.io/3bb-tsport7/3bb-tsport7.html'" autofocus="">	
+	
+			</div>
+		</div>	
+
+
+
+		
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418190941Workpoint.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='go:workpoint'" autofocus="">	
+		</div>
+		</div>			
+			<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418190941Workpoint.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://wandering-oldman.github.io/3bb-workpoint/3bb-workpoint.html'" autofocus="">	
+	
+			</div>
+		</div>			
+
+	
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191057thairahttvhd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='go:thairath'" autofocus="">	
+			</div>
+		</div>		
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191057thairahttvhd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://wandering-oldman.github.io/3bb-thairath/3bb-thairath.html'" autofocus="">	
+			</div>
+		</div>			
+			
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191809amarintvhd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='go:amarin'" autofocus="">	
+	
+			</div>
+		</div>
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191809amarintvhd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://wandering-oldman.github.io/3bb-amarin/3bb-amarin.html'" autofocus="">	
+	
+			</div>
+		</div>					
+		
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191253pptvhd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='go:pptv'" autofocus="">			
+		</div>
+		</div>			
+	
+			<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191253pptvhd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://wandering-oldman.github.io/3bb-pptv/3bb-pptv.html'" autofocus="">
+			</div>
+		</div>	
+
+
+
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418190115True4u.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='go:true4u'" autofocus="">	
+			</div>
+		</div>			
+			<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418190115True4u.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://wandering-oldman.github.io/3bb-true4u/3bb-true4u.html'" autofocus="">	
+			</div>
+		</div>			
+					<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418190128gmmchannel.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='go:gmm25'" autofocus="">	
+			</div>
+		</div>		
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418190128gmmchannel.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://wandering-oldman.github.io/3bb-gmm25/3bb-gmm25.html'" autofocus="">	
+			</div>
+		</div>			
+		
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191335ch8.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='go:ch8'" autofocus="">		</div>
+		</div>			
+				<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191335ch8.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://wandering-oldman.github.io/3bb-ch8/3bb-ch8.html'" autofocus="">		</div>
+		</div>			
+		
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191023mono29.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='go:mono29'" autofocus="">	
+			</div>
+		</div>			
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191023mono29.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://wandering-oldman.github.io/3bb-mono29/3bb-mono29.html'" autofocus="">	
+			</div>
+		</div>			
+
+	
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191350onehd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='go:one31'" autofocus="">	
+					</div>
+		</div>			
+			<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191350onehd.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://wandering-oldman.github.io/3bb-one31hd/3bb-one31hd.html'" autofocus="">	
+					</div>
+		</div>			
+
+			<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191939tptv.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='go:tptv'" autofocus="">	
+
+			</div>
+		</div>			
+
+
+				<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191153JKN18.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='go:jkn18'" autofocus="">	
+				</div>
+		</div>	
+		<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191153JKN18.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://wandering-oldman.github.io/3bb-jkn18/3bb-jkn18.html'" autofocus="">	
+				</div>
+		</div>	
+
+
+				<div class="movie col-4 col-md-3 col-xl-2">
+			<div class="movie-box">
+					<input class="btn" type="button" style="background-size:cover;background-image:url(https://img.inwiptv.net/postor/20240418191939tptv.jpg);width:140px;height:100.45px;background-position: center center;" onclick="window.location.href='https://wandering-oldman.github.io/3bb-tptv/3bb-tptv.htmll'" autofocus="">	
+
+			</div>
+		</div>			
+	
+
+
+                                                                        
+</div>
+</div>
+</div>  
+</div> 
+</form>      
+</div>
+</div>
+</div>
+</div>
+<!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4889809,4,10,200,40,00011111']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+_Hasync.push(['Histats.framed_page', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4889809&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+
+
+
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="/icon.jpg" type="image/x-icon">
+  	<title>ผู้เฒ่าพเนจร</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="ผู้เฒ่าพเนจร"> 
+<meta http-equiv=refresh content=1;URL=https://www.google.co.th/>
+<body bgcolor="000000">
+<center>
+  <h2><img src="https://www.dropbox.com/scl/fi/rmxnwh4zs7umcjawfod44/.png?rlkey=20tmi23bjh8t0eyiinlspfvrj&dl=1"></h2>
+</center>
+</body>
+</html>
